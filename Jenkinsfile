@@ -6,6 +6,7 @@ pipeline{
             steps{
                 echo "Building the application..."
                 sh 'python3 app.py'
+                echo "Push Command Trigger From Github"
             }
         }
         stage("test"){
