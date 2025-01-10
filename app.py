@@ -24,3 +24,4 @@ def sumOfArr(arr):
     return sum
 
 print(sumOfArr(arr))
+print("This is a test for push notification")
